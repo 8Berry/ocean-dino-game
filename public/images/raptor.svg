@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M70,110 Q100,100 130,110 Q160,120 170,110 Q180,105 180,120 Q180,140 160,150 Q130,165 90,160 Q70,158 60,140 Q50,130 70,110" 
+        fill="#FFA07A"/>
+  
+  <!-- Head -->
+  <path d="M50,100 Q55,90 70,95 Q80,97 85,105 Q87,110 80,115 Q70,120 55,110 Q48,105 50,100" 
+        fill="#FFA07A"/>
+  
+  <!-- Eye -->
+  <circle cx="65" cy="102" r="3" fill="black"/>
+  
+  <!-- Smile -->
+  <path d="M55,108 Q65,112 75,108" 
+        fill="none" 
+        stroke="black" 
+        stroke-width="2" 
+        stroke-linecap="round"/>
+  
+  <!-- Arms -->
+  <path d="M100,120 Q105,130 110,135" 
+        fill="none" 
+        stroke="#FFA07A" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  
+  <!-- Legs -->
+  <path d="M110,150 Q115,160 120,170" 
+        fill="none" 
+        stroke="#FFA07A" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <path d="M130,150 Q135,160 140,170" 
+        fill="none" 
+        stroke="#FFA07A" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+</svg>

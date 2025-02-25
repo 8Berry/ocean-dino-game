@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,220 Q170,210 240,220 Q280,230 300,210 Q320,200 310,240 Q300,280 260,300 Q210,320 140,310 Q100,305 80,270 Q70,250 100,220" 
+        fill="#689F38" stroke="#33691E" stroke-width="3"/>
+  
+  <!-- Neck -->
+  <path d="M100,220 Q90,200 100,180 Q110,160 130,150" 
+        fill="#689F38" stroke="#33691E" stroke-width="3"/>
+  
+  <!-- Head -->
+  <path d="M130,150 Q150,140 170,145 Q190,150 195,160 Q200,170 190,180 Q170,195 140,190 Q120,185 130,150" 
+        fill="#689F38" stroke="#33691E" stroke-width="3"/>
+  
+  <!-- Back Plates -->
+  <path d="M140,210 L160,150 L180,210" fill="#558B2F" stroke="#33691E" stroke-width="2"/>
+  <path d="M180,210 L200,130 L220,210" fill="#558B2F" stroke="#33691E" stroke-width="2"/>
+  <path d="M220,210 L240,150 L260,210" fill="#558B2F" stroke="#33691E" stroke-width="2"/>
+  <path d="M260,210 L280,170 L300,210" fill="#558B2F" stroke="#33691E" stroke-width="2"/>
+  
+  <!-- Eye -->
+  <circle cx="155" cy="160" r="5" fill="#FFF"/>
+  <circle cx="155" cy="160" r="2" fill="#000"/>
+  
+  <!-- Legs -->
+  <path d="M150,300 Q160,320 170,350" 
+        fill="none" stroke="#689F38" stroke-width="15" stroke-linecap="round"/>
+  <path d="M200,300 Q210,320 220,350" 
+        fill="none" stroke="#689F38" stroke-width="15" stroke-linecap="round"/>
+  
+  <!-- Tail -->
+  <path d="M260,270 Q300,280 320,260 Q340,240 350,200" 
+        fill="none" stroke="#689F38" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- Tail Spikes -->
+  <path d="M320,240 L340,220" stroke="#558B2F" stroke-width="8" stroke-linecap="round"/>
+  <path d="M330,230 L350,210" stroke="#558B2F" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Scales and Details -->
+  <path d="M120,230 Q140,225 160,230 Q180,235 200,230" 
+        fill="none" stroke="#33691E" stroke-width="2"/>
+  <path d="M140,250 Q160,245 180,250 Q200,255 220,250" 
+        fill="none" stroke="#33691E" stroke-width="2"/>
+  
+  <!-- Muscle Definition -->
+  <path d="M180,270 Q200,265 220,275" 
+        fill="none" stroke="#33691E" stroke-width="2" opacity="0.5"/>
+  <path d="M160,290 Q180,285 200,295" 
+        fill="none" stroke="#33691E" stroke-width="2" opacity="0.5"/>
+</svg>
