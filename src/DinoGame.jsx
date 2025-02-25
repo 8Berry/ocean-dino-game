@@ -101,6 +101,8 @@ const FooterImage = styled.img`
   border-radius: 10px;
 `;
 
+const base = '/ocean-dino-game';
+
 export default function DinoGame() {
   const [playingDino, setPlayingDino] = useState(null);
 
@@ -115,7 +117,7 @@ export default function DinoGame() {
   const floatingDinos = Array.from({ length: 5 }).map((_, index) => ({
     duration: 15 + Math.random() * 10, // Random duration between 15-25 seconds
     delay: index * 3, // Stagger the start times
-    image: '/images/coral-raptor.jpg' // Using the coral raptor image
+    image: `${base}/images/coral-raptor.jpg` // Using the coral raptor image
   }));
 
   return (
